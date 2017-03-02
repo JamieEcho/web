@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CODE	HttpState.hpp	/^  typedef uint16_t CODE;$/;"	t	language:C++	class:HTTPState	access:public
+CRFL	HttpResponse.hpp	33;"	d	language:C++
+DELETE	HttpRequest.hpp	/^  GET, POST, DELETE, PUT, HEAD, $/;"	e	language:C++	enum:HTTPMethod
+GET	HttpRequest.hpp	/^  GET, POST, DELETE, PUT, HEAD, $/;"	e	language:C++	enum:HTTPMethod
+HEAD	HttpRequest.hpp	/^  GET, POST, DELETE, PUT, HEAD, $/;"	e	language:C++	enum:HTTPMethod
+HTML	main.cpp	19;"	d	language:C++	file:
+HTTPMethod	HttpRequest.hpp	/^enum HTTPMethod{$/;"	g	language:C++
+HTTPREQUEST_H	HttpRequest.hpp	2;"	d	language:C++
+HTTPSTATE_H	HttpState.hpp	2;"	d	language:C++
+HTTPState	HttpState.hpp	/^  HTTPState(CODE code) :$/;"	f	language:C++	class:HTTPState	access:public	signature:(CODE code)
+HTTPState	HttpState.hpp	/^class HTTPState{$/;"	c	language:C++
+HTTPState::CODE	HttpState.hpp	/^  typedef uint16_t CODE;$/;"	t	language:C++	class:HTTPState	access:public
+HTTPState::HTTPState	HttpState.hpp	/^  HTTPState(CODE code) :$/;"	f	language:C++	class:HTTPState	access:public	signature:(CODE code)
+HTTPState::HTTP_200	HttpState.hpp	/^  static const CODE HTTP_200 = 200;$/;"	m	language:C++	class:HTTPState	access:public
+HTTPState::HTTP_404	HttpState.hpp	/^  static const CODE HTTP_404 = 404;$/;"	m	language:C++	class:HTTPState	access:public
+HTTPState::_code	HttpState.hpp	/^  CODE _code;$/;"	m	language:C++	class:HTTPState	access:private
+HTTPState::_states	HttpState.cpp	/^HTTPState::_states = {$/;"	m	language:C++	class:HTTPState	file:
+HTTPState::_states	HttpState.hpp	/^  static std::unordered_map<CODE, std::string> _states;$/;"	m	language:C++	class:HTTPState	access:private
+HTTPState::to_s	HttpState.hpp	/^  std::string to_s() {$/;"	f	language:C++	class:HTTPState	access:public	signature:()
+HTTP_200	HttpState.hpp	/^  static const CODE HTTP_200 = 200;$/;"	m	language:C++	class:HTTPState	access:public
+HTTP_404	HttpState.hpp	/^  static const CODE HTTP_404 = 404;$/;"	m	language:C++	class:HTTPState	access:public
+HttpRequest	HttpRequest.hpp	/^class HttpRequest {$/;"	c	language:C++
+HttpRequest::_heads	HttpRequest.hpp	/^  std::unordered_map<std::string, std::string> _heads;$/;"	m	language:C++	class:HttpRequest	access:private
+HttpRequest::_method	HttpRequest.hpp	/^  HTTPMethod _method;$/;"	m	language:C++	class:HttpRequest	access:private
+HttpRequestParser	HttpRequestParser.hpp	/^class HttpRequestParser {$/;"	c	language:C++
+HttpResponse	HttpResponse.hpp	/^  HttpResponse(HTTPState::CODE state) $/;"	f	language:C++	class:HttpResponse	access:public	signature:(HTTPState::CODE state)
+HttpResponse	HttpResponse.hpp	/^class HttpResponse {$/;"	c	language:C++
+HttpResponse::HttpResponse	HttpResponse.hpp	/^  HttpResponse(HTTPState::CODE state) $/;"	f	language:C++	class:HttpResponse	access:public	signature:(HTTPState::CODE state)
+HttpResponse::_body	HttpResponse.hpp	/^  std::string _body;$/;"	m	language:C++	class:HttpResponse	access:private
+HttpResponse::_headers	HttpResponse.hpp	/^  std::unordered_map<std::string, std::string> _headers;;$/;"	m	language:C++	class:HttpResponse	access:private
+HttpResponse::_state	HttpResponse.hpp	/^  HTTPState _state;$/;"	m	language:C++	class:HttpResponse	access:private
+HttpResponse::addHeader	HttpResponse.hpp	/^  void addHeader(const std::string &key, const std::string &value)$/;"	f	language:C++	class:HttpResponse	access:public	signature:(const std::string &key, const std::string &value)
+HttpResponse::delHeader	HttpResponse.hpp	/^  void delHeader(const std::string &key)$/;"	f	language:C++	class:HttpResponse	access:public	signature:(const std::string &key)
+HttpResponse::getPkg	HttpResponse.hpp	/^  std::string getPkg() {$/;"	f	language:C++	class:HttpResponse	access:public	signature:()
+HttpResponse::writeBody	HttpResponse.hpp	/^  void writeBody(const std::string & body) {$/;"	f	language:C++	class:HttpResponse	access:public	signature:(const std::string & body)
+INVAILD	HttpRequest.hpp	/^  INVAILD;$/;"	e	language:C++	enum:HTTPMethod
+IP	main.cpp	17;"	d	language:C++	file:
+PORT	main.cpp	18;"	d	language:C++	file:
+POST	HttpRequest.hpp	/^  GET, POST, DELETE, PUT, HEAD, $/;"	e	language:C++	enum:HTTPMethod
+PUT	HttpRequest.hpp	/^  GET, POST, DELETE, PUT, HEAD, $/;"	e	language:C++	enum:HTTPMethod
+UTIL_H	Util.hpp	2;"	d	language:C++
+_body	HttpResponse.hpp	/^  std::string _body;$/;"	m	language:C++	class:HttpResponse	access:private
+_code	HttpState.hpp	/^  CODE _code;$/;"	m	language:C++	class:HTTPState	access:private
+_headers	HttpResponse.hpp	/^  std::unordered_map<std::string, std::string> _headers;;$/;"	m	language:C++	class:HttpResponse	access:private
+_heads	HttpRequest.hpp	/^  std::unordered_map<std::string, std::string> _heads;$/;"	m	language:C++	class:HttpRequest	access:private
+_method	HttpRequest.hpp	/^  HTTPMethod _method;$/;"	m	language:C++	class:HttpRequest	access:private
+_state	HttpResponse.hpp	/^  HTTPState _state;$/;"	m	language:C++	class:HttpResponse	access:private
+_states	HttpState.cpp	/^HTTPState::_states = {$/;"	m	language:C++	class:HTTPState	file:
+_states	HttpState.hpp	/^  static std::unordered_map<CODE, std::string> _states;$/;"	m	language:C++	class:HTTPState	access:private
+addHeader	HttpResponse.hpp	/^  void addHeader(const std::string &key, const std::string &value)$/;"	f	language:C++	class:HttpResponse	access:public	signature:(const std::string &key, const std::string &value)
+delHeader	HttpResponse.hpp	/^  void delHeader(const std::string &key)$/;"	f	language:C++	class:HttpResponse	access:public	signature:(const std::string &key)
+getLine	Util.cpp	/^int getLine() {$/;"	f	language:C++	signature:()
+getLine	Util.hpp	/^int getLine(std::string &line\/*out*\/, int fd);$/;"	p	language:C++	signature:(std::string &line , int fd)
+getLine2	Util.cpp	/^int getLine2(std::string &line\/*out*\/, int fd) {$/;"	f	language:C++	signature:(std::string &line , int fd)
+getPkg	HttpResponse.hpp	/^  std::string getPkg() {$/;"	f	language:C++	class:HttpResponse	access:public	signature:()
+i2s	Util.cpp	/^std::string i2s(int num) {$/;"	f	language:C++	signature:(int num)
+i2s	Util.hpp	/^std::string i2s(int num) ;$/;"	p	language:C++	signature:(int num)
+main	main.cpp	/^int main() {$/;"	f	language:C++	signature:()
+recvData	Util.cpp	/^static int recvData(uint8_t *buf, size_t bufLen) {$/;"	f	language:C++	file:	signature:(uint8_t *buf, size_t bufLen)
+to_s	HttpState.hpp	/^  std::string to_s() {$/;"	f	language:C++	class:HTTPState	access:public	signature:()
+writeBody	HttpResponse.hpp	/^  void writeBody(const std::string & body) {$/;"	f	language:C++	class:HttpResponse	access:public	signature:(const std::string & body)
